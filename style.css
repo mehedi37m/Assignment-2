@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;800&family=Work+Sans:wght@300;400;500;700;800&display=swap');
+
+body{
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 240px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-logo-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.nav-logo {
+  width: 86.041px;
+  height: 40px;
+  margin-right: 20px;
+}
+nav-logo-title {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+}
+.gamer-g {
+  color: #f948b2;
+}
+.nav-title {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-title a {
+  text-decoration: none;
+}
+.nav-title-a1 {
+  color: #3c354f;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav-title-icon {
+  width: 262px;
+  height: 56px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  gap: 24px;
+
+}
+.nav-title-icon-a1 {
+  color: #3c354f;
+  font-family: Work Sans;
+  font-size: 18px;
+ 
+  font-weight: 500;
+
+}
