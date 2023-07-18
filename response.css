@@ -15,6 +15,15 @@
       .banner-img > img{
         width: 80%;
       }
+      .online-pic-container{
+        flex-direction: column;
+        margin: 50px 0;
+        text-align: center;
+      }
+      .pic-description{
+     text-align: center;
+     margin: 0 auto;
+    }
 }
 @media screen and (max-width:425px) {
     
@@ -78,4 +87,37 @@
       .online-description {
         font-size: 10px;
       }
+      /* online game part star */
+      .online-pic-container{
+        flex-direction: column;
+        margin: 50px 0;
+        text-align: center;
+      }
+      /* online part end */
+      .games-pic-container {
+       flex-direction:column-reverse;
+      }
+      .pic-container{
+     
+    }
+    .new{
+        width: 250px;
+    }
+    .img-pos{
+       width: 100px;
+    }
+    .games-title {
+        text-align: center;
+        font-size: 23px;
+        font-weight: 0;
+        line-height: 25px;
+        margin-bottom: 20px;
+      }
+      .games-description {
+        color: #534c64;
+        font-size: 8px;
+        line-height: 10px;
+        margin-bottom: 20px;
+      }
+      
 }
