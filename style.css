@@ -29,7 +29,7 @@ nav {
   height: 40px;
   margin-right: 20px;
 }
-nav-logo-title {
+.nav-logo-title {
   text-align: center;
   font-family: Work Sans;
   font-size: 45px;
@@ -75,7 +75,7 @@ nav-logo-title {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  width: 1440px
+  width: 1640px
 }
 
 .banner-text {
@@ -107,6 +107,7 @@ nav-logo-title {
   margin-top: 15px;
   font-size: 20px;
   font-weight: 500;
+  padding-left: 30px;
   
 }
 .btn-primary-1 {
@@ -118,6 +119,7 @@ nav-logo-title {
   border: none;
   padding: 21px 40px;
   margin-top: 30px;
+  margin-left: 20px;
 }
 .btn-primary-2 {
   border-radius: 48px;
@@ -210,4 +212,60 @@ nav-logo-title {
   color: #534c64;
   font-size: 18px;
   line-height: 30px; /* 166.667% */
+}
+/* footer part start */
+
+.footer-container{
+  background: #0B0223;
+  color: white;
+  text-align: center;
+  margin-top: 300px;
+  padding: 50px 0;
+}
+.nav-logo-container-2 {
+  width: 200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.nav-logo-2 {
+  padding-right: 10px;
+  height: 30px;
+  margin-bottom: 20px;
+ 
+}
+.nav-logo-title-2 {
+  text-align: center;
+  font-family: Work Sans;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footer-title{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.footer-title > a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.808);
+}
+.footer-icon{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.footer-description{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 10px;
+  margin-bottom: 20px;
+
+}
+.footer-time{
+  font-size: 12px;
 }
