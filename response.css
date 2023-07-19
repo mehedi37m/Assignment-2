@@ -38,6 +38,11 @@
       width: auto;
       margin-bottom: 200px;
     }
+    .menu-container{
+      margin: 0;
+      padding: 0;
+      width: auto;
+    }
     .footer-title{
       display: grid;
       grid-template-columns: 1fr;
@@ -142,6 +147,28 @@
         line-height: 10px;
         margin-bottom: 20px;
       }
+      /* this is menu part start */
+      .main-container {
+        /* margin: 1px;  */
+     
+    }
+   .menu-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding:0;
+    width: auto;
+    margin: 0;
+   }
+   .menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+  }
+  .menu > img{
+      width: 30px;
+  }
+
       /* footer part start */
       .footer-title{
         display: grid;
